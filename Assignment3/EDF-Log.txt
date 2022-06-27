@@ -1,0 +1,57 @@
+process1: processing time=25; deadline:50; period:50 joined the system at time 0.
+process2: processing time=35; deadline:80; period:80 joined the system at time 0.
+
+process p1: starts execution at time 0
+process p1: finishes execution at time 25
+process p2: starts execution at time 26
+process p2: finishes execution at time 60
+process p1: starts execution at time 61
+process p1: finishes execution at time 85
+process p2: starts execution at time 86
+process p2: is preempted by process p1 at time 100. Remaining processing time: 20
+process p1: starts execution at time 101
+process p1: finishes execution at time 125
+process p2: starts execution at time 126
+process p2: finishes execution at time 145
+CPU remains idle till 150
+process p1: starts execution at time 151
+process p1: finishes execution at time 175
+process p2: starts execution at time 176
+process p2: finishes execution at time 210
+process p1: starts execution at time 211
+process p1: finishes execution at time 235
+CPU remains idle till 240
+process p2: starts execution at time 241
+process p2: is preempted by process p1 at time 250. Remaining processing time: 25
+process p1: starts execution at time 251
+process p1: finishes execution at time 275
+process p2: starts execution at time 276
+process p2: finishes execution at time 300
+process p1: starts execution at time 301
+process p1: finishes execution at time 325
+process p2: starts execution at time 326
+process p2: is preempted by process p1 at time 350. Remaining processing time: 10
+process p1: starts execution at time 351
+process p1: finishes execution at time 375
+process p2: starts execution at time 376
+process p2: finishes execution at time 385
+CPU remains idle till 400
+process p1: starts execution at time 401
+process p1: finishes execution at time 425
+process p2: starts execution at time 426
+process p2: finishes execution at time 460
+process p1: starts execution at time 461
+process p1: finishes execution at time 485
+process p2: starts execution at time 486
+process p2: finishes execution at time 520
+CPU remains idle till 560
+process p2: starts execution at time 561
+process p2: finishes execution at time 595
+CPU remains idle till 640
+process p2: starts execution at time 641
+process p2: finishes execution at time 675
+CPU remains idle till 720
+process p2: starts execution at time 721
+process p2: finishes execution at time 755
+CPU remains idle till 800
+process p1 starts execution at 800

@@ -1,0 +1,58 @@
+Process1: processing time=25; deadine:50; period:50 joined the system at time 0.
+Process2: processing time=35; deadine:80; period:80 joined the system at time 0.
+Process1: starts execution at time 0.
+Process1: finishes execution at time 25.
+Process2: starts execution at time 25.
+Process2: is preempted by Process1 at time 50 .Remaining processing time:10
+Process1: starts execution at time 50.
+Process1: finishes execution at time 75.
+Process2: starts execution at time 75.
+Process2: is preempted by Process1 at time 100 .Remaining processing time:10
+Process1: starts execution at time 100.
+Process1: finishes execution at time 125.
+Process2: starts execution at time 125.
+Process2: finishes execution at time 140.
+CPU is idle till 150
+Process1: starts execution at time 150.
+Process1: finishes execution at time 175.
+Process2: starts execution at time 175.
+Process2: is preempted by Process1 at time 200 .Remaining processing time:10
+Process1: starts execution at time 200.
+Process1: finishes execution at time 225.
+Process2: starts execution at time 225.
+Process2: finishes execution at time 235.
+CPU is idle till 240
+Process2: starts execution at time 240.
+Process2: is preempted by Process1 at time 250 .Remaining processing time:25
+Process1: starts execution at time 250.
+Process1: finishes execution at time 275.
+Process2: starts execution at time 275.
+Process2: is preempted by Process1 at time 300 .Remaining processing time:10
+Process1: starts execution at time 300.
+Process1: finishes execution at time 325.
+Process2: starts execution at time 325.
+Process2: is preempted by Process1 at time 350 .Remaining processing time:10
+Process1: starts execution at time 350.
+Process1: finishes execution at time 375.
+Process2: starts execution at time 375.
+Process2: finishes execution at time 385.
+CPU is idle till 400
+Process1: starts execution at time 400.
+Process1: finishes execution at time 425.
+Process2: starts execution at time 425.
+Process2: is preempted by Process1 at time 450 .Remaining processing time:10
+Process1: starts execution at time 450.
+Process1: finishes execution at time 475.
+Process2: starts execution at time 475.
+Process2: finishes execution at time 515.
+CPU is idle till 560
+Process2: starts execution at time 560.
+Process2: finishes execution at time 595.
+CPU is idle till 640
+Process2: starts execution at time 640.
+Process2: finishes execution at time 675.
+CPU is idle till 720
+Process2: starts execution at time 720.
+Process2: finishes execution at time 755.
+CPU is idle 
+Process1: starts execution at time 800.

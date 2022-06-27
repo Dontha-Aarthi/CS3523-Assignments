@@ -1,0 +1,17 @@
+Process1: 
+number of processes that came into system: 10
+Number of misses: 0.
+number of processes that completed successfully: 10
+average waiting time: 0
+
+Process2: 
+number of processes that came into system: 10
+Number of misses: 2.
+number of processes that completed successfully: 8
+average waiting time: 22
+
+
+Total Number of processes that came into system is 20
+Total Number of processes that successfully completed are 18
+Total Number of processes that missed their deadline are 2
+Total average waiting time is 11

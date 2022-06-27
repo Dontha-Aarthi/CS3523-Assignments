@@ -1,0 +1,26 @@
+We have 2 cpp source files
+
+
+	1. Assn5-frw-CS20BTECH11015.cpp
+	
+		Command to compile this file is :  g++ Assn5-frw-CS20BTECH11015.cpp -o frw -lpthread
+		Command to run this file is :  ./frw
+		
+		It reads input from inp-params.txt file.
+		It creates 2 files FairRW-log.txt and Average_time-FRW.txt which have the log and average time respectively.
+		
+		
+		
+		 
+	2. Assn5-rw-CS20BTECH11015.cpp
+	
+		Command to compile this file is :  g++ Assn5-rw-CS20BTECH11015.cpp -o rw -lpthread
+		Command to run this file is :  ./rw
+		
+		It reads input from inp-params.txt file.
+		It creates 2 files RW-log.txt and Average_time-RW.txt which have the log and average time respectively.
+		
+		
+		
+		
+		NOTE: In the terminal I have printed waiting time of all reader and writer threads kr and kw times respectively. 
